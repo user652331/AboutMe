@@ -7,7 +7,7 @@
              x:Class="ThisIsAboutMe.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
+        <!-- Alex-->
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
