@@ -9,27 +9,28 @@
     <StackLayout>
         <!-- Alex-->
 
-        
+
         <Frame
  
        
         BackgroundColor ="black"
         CornerRadius="5"
-        HasShadow="true"
-        <StackLayout Orientation="Horizontal">
-            <BoxView
+        HasShadow="true">
+
+            <StackLayout Orientation="Horizontal">
+                <BoxView
                 BackgroundColor="Blue"
                 HeightRequest="100"
                 WidthRequest="100"/>
 
-        <Label
-            FontSize="25"
-           Text="Me, Alex"
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-       
+                <Label
+                    FontSize="25"
+                   Text="Me, Alex"
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />
 
-            </Frame>
+            </StackLayout>
+        </Frame>
     </StackLayout>
 
 </ContentPage>
