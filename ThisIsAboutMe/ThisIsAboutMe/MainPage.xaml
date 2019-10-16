@@ -4,33 +4,64 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="ThisIsAboutMe.MainPage">
+             x:Class="ThisIsAboutMe.MainPage"
+             Title="My Biography App">
 
     <StackLayout>
         <!-- Alex-->
+        <Button BackgroundColor="Green"
+                Text="My Skills"
+                TextColor="Black"
+                
+                Clicked="Button_ClickedSkills" />
+
+        <Button BackgroundColor="Green"
+                Text="Who I Am"
+                TextColor="Black"
+                
+                />
+
+        <Button BackgroundColor="Green"
+                Text="About Me"
+                TextColor="Black"
+                
+                />
+
 
 
         <Frame
  
-       
+        Margin="20"
         BackgroundColor ="black"
         CornerRadius="5"
         HasShadow="true">
-
-            <StackLayout Orientation="Horizontal">
+            
+            <StackLayout Orientation="Horizontal" Spacing="30">
+                
                 <BoxView
                 BackgroundColor="Blue"
                 HeightRequest="100"
                 WidthRequest="100"/>
 
                 <Label
-                    FontSize="25"
+                   Margin="20,0,0,0"
+                   FontSize="30"
                    Text="Me, Alex"
+                   TextColor="DarkGreen"
+                    
+                   VerticalTextAlignment="End"
+                    
                    HorizontalOptions="Center"
                    VerticalOptions="CenterAndExpand" />
 
             </StackLayout>
+            
+            
         </Frame>
+        
+
+
+
     </StackLayout>
 
 </ContentPage>

@@ -17,5 +17,15 @@ namespace ThisIsAboutMe
         {
             InitializeComponent();
         }
+
+        private void Button_ClickedSkills(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SkillsPage());
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
