@@ -23,9 +23,10 @@ namespace ThisIsAboutMe
             Navigation.PushAsync(new SkillsPage());
         }
 
-        private void Button_Clicked_1(object sender, EventArgs e)
+        private void Button_ClickedContactMe(object sender, EventArgs e)
         {
-
+            
+            Navigation.PushAsync(new ContactPage());
         }
     }
 }

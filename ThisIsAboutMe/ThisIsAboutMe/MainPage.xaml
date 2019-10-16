@@ -19,7 +19,7 @@
                 Text="Who I Am"
                 TextColor="Black"
                 
-                />
+                Clicked="Button_ClickedContactMe" />
 
         <Button BackgroundColor="Green"
                 Text="About Me"
