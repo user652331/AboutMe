@@ -28,5 +28,10 @@ namespace ThisIsAboutMe
             
             Navigation.PushAsync(new ContactPage());
         }
+
+        private void Button_ClickedAboutMe(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AboutMe());
+        }
     }
 }

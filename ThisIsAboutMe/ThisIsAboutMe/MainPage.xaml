@@ -8,36 +8,29 @@
              Title="My Biography App">
 
     <StackLayout>
-        <!-- Alex-->
-        <Button BackgroundColor="Green"
-                Text="My Skills"
-                TextColor="Black"
-                
-                Clicked="Button_ClickedSkills" />
-
-        <Button BackgroundColor="Green"
-                Text="Who I Am"
-                TextColor="Black"
-                
-                Clicked="Button_ClickedContactMe" />
-
-        <Button BackgroundColor="Green"
-                Text="About Me"
-                TextColor="Black"
-                
-                />
+        <!-- My about me App code-->
+       
 
 
 
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
         <Frame
  
         Margin="20"
         BackgroundColor ="black"
         CornerRadius="5"
         HasShadow="true">
-            
+
+            <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="Button_ClickedAboutMe"></TapGestureRecognizer>
+            </Frame.GestureRecognizers>
+            <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+
+
             <StackLayout Orientation="Horizontal" Spacing="30">
-                
+
                 <BoxView
                 BackgroundColor="Blue"
                 HeightRequest="100"
@@ -55,10 +48,84 @@
                    VerticalOptions="CenterAndExpand" />
 
             </StackLayout>
-            
-            
+
+
         </Frame>
-        
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+        <Frame
+ 
+        Margin="20"
+        BackgroundColor ="black"
+        CornerRadius="5"
+        HasShadow="true">
+
+            <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="Button_ClickedSkills"></TapGestureRecognizer>
+            </Frame.GestureRecognizers>
+            <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+            <StackLayout Orientation="Horizontal" Spacing="30">
+
+                <BoxView
+                BackgroundColor="Blue"
+                HeightRequest="100"
+                WidthRequest="100"/>
+
+                <Label
+                   Margin="20,0,0,0"
+                   FontSize="30"
+                   Text="Me, Alex"
+                   TextColor="DarkGreen"
+                    
+                   VerticalTextAlignment="End"
+                    
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />
+
+            </StackLayout>
+
+
+        </Frame>
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+        <Frame
+ 
+        Margin="20"
+        BackgroundColor ="black"
+        CornerRadius="5"
+        HasShadow="true">
+
+            <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="Button_ClickedContactMe"></TapGestureRecognizer>
+            </Frame.GestureRecognizers>
+            <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+            <StackLayout Orientation="Horizontal" Spacing="30">
+
+                <BoxView
+                BackgroundColor="Blue"
+                HeightRequest="100"
+                WidthRequest="100"/>
+
+                <Label
+                   Margin="20,0,0,0"
+                   FontSize="30"
+                   Text="Me, Alex"
+                   TextColor="DarkGreen"
+                    
+                   VerticalTextAlignment="End"
+                    
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />
+
+            </StackLayout>
+
+
+        </Frame>
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+
 
 
 
