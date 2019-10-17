@@ -9,12 +9,58 @@
         
         <StackLayout>
             
-            
-            <Label Text="My Skills"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            
-            
+            <Frame
+ 
+        Margin="25"
+        BackgroundColor ="CornflowerBlue"
+        CornerRadius="30"
+        HasShadow="true">
+
+                <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                <StackLayout Orientation="Vertical" Spacing="30">
+
+
+                    <Image Source="https://img.icons8.com/ios-filled/100/000000/pointing-at-self.png"
+                       WidthRequest="100"
+                       HeightRequest="100"/>
+
+                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                    <Label
+                   Margin="20,0,0,0"
+                   FontSize="50"
+                   Text="About Me"
+                   TextColor="Black"
+                    
+                   VerticalTextAlignment="End"
+                    
+                   HorizontalOptions="Start"
+                   VerticalOptions="CenterAndExpand" />
+
+                    <Label
+                        Text="_____________________________________________________________________"/>
+
+                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+
+
+                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                    <Label
+                   Margin="20,0,0,0"
+                   FontSize="30"
+                   Text="I am a current student at Pittsburg state University. My major is Electronics engineering with a minor in Computer Info Systems. I like to play video games on my free time whenever I'm not busy doing homework."
+                   TextColor="Black"
+                    
+                   VerticalTextAlignment="End"
+                    
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />
+                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+                </StackLayout>
+                <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+            </Frame>
+
         </StackLayout>
         
         
