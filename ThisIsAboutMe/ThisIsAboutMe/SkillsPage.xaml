@@ -57,7 +57,7 @@
                     <Label
                    Margin="20,0,0,0"
                    FontSize="20"
-                   Text="-Skateboard        -Play videogames"
+                   Text="-Skateboard          -Play videogames"
                    TextColor="Black"
                     
                    VerticalTextAlignment="End"
@@ -69,7 +69,7 @@
                     <Label
                    Margin="20,0,0,0"
                    FontSize="20"
-                   Text="-Practice archery         -Go hunting"
+                   Text="-Practice archery            -Go hunting"
                    TextColor="Black"
                     
                    VerticalTextAlignment="End"
@@ -95,7 +95,7 @@
                     <Label
                    Margin="20,0,0,0"
                    FontSize="20"
-                   Text="-Welding                 -Programming"
+                   Text="-Welding                    -Programming"
                    TextColor="Black"
                     
                    VerticalTextAlignment="End"
@@ -108,7 +108,7 @@
                     <Label
                    Margin="20,0,0,0"
                    FontSize="20"
-                   Text="-Electrical wiring          -Fix vehicles"
+                   Text="-Electrical wiring            -Fix vehicles"
                    TextColor="Black"
                     
                    VerticalTextAlignment="End"
