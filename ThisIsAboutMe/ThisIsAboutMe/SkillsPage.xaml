@@ -4,6 +4,9 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             
+             
+             Title="My Abilities"
              BackgroundColor="LightBlue"
              x:Class="ThisIsAboutMe.SkillsPage">
     <ContentPage.Content>

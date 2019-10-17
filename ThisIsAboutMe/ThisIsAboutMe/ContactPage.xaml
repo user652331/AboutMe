@@ -4,12 +4,113 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             
+             
+             BackgroundColor="LightBlue"
+             Title="Message Me"
              x:Class="ThisIsAboutMe.ContactPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+            <Frame
+ 
+        Margin="25"
+        BackgroundColor ="CornflowerBlue"
+        CornerRadius="30"
+        HasShadow="true">
+
+                <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                <StackLayout Orientation="Vertical" Spacing="20">
+
+
+                    <Image Source="https://img.icons8.com/ios-filled/90/000000/phonelink-ring.png"
+                       WidthRequest="100"
+                       HeightRequest="100"/>
+
+                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                    <Label
+                   Margin="20,0,0,0"
+                   FontSize="40"
+                   Text="Contact Me"
+                   TextColor="Black"
+                    
+                   VerticalTextAlignment="End"
+                    
+                   HorizontalOptions="Start"
+                   VerticalOptions="CenterAndExpand" />
+
+                    <Label
+                        Text="______________________________________________________________________"/>
+
+                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+                    <Label
+                   Margin="20,0,0,0"
+                   FontSize="20"
+                   Text="Name:"
+                   TextColor="Black"
+                    
+                   VerticalTextAlignment="End"
+                    
+                   HorizontalOptions="Start"
+                   VerticalOptions="CenterAndExpand" />
+
+                    <Label
+                        Text="_____________________________________________"/>
+
+                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                    <Label
+                   Margin="20,0,0,0"
+                   FontSize="20"
+                   Text="E-Mail:"
+                   TextColor="Black"
+                    
+                   VerticalTextAlignment="End"
+                    
+                   HorizontalOptions="Start"
+                   VerticalOptions="CenterAndExpand" />
+
+                    <Label
+                        Text="_____________________________________________"/>
+                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+                    <Label
+                   Margin="20,0,0,0"
+                   FontSize="20"
+                   Text="Cell Number:"
+                   TextColor="Black"
+                    
+                   VerticalTextAlignment="End"
+                    
+                   HorizontalOptions="Start"
+                   VerticalOptions="Center" />
+
+                    <Label
+                        Text="_____________________________________________"/>
+
+                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+                    <Label
+                   Margin="20,0,0,0"
+                   FontSize="20"
+                   Text="Message:"
+                   TextColor="Black"
+                    
+                   VerticalTextAlignment="End"
+                    
+                   HorizontalOptions="Start"
+                   VerticalOptions="CenterAndExpand" />
+
+                        <Label
+                        Text="________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________"/>
+
+                        <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+                </StackLayout>
+                <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+            </Frame>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
