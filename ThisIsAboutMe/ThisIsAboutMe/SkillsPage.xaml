@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             BackgroundColor="LightBlue"
              x:Class="ThisIsAboutMe.SkillsPage">
     <ContentPage.Content>
         
@@ -20,15 +21,15 @@
                 <StackLayout Orientation="Vertical" Spacing="30">
 
 
-                    <Image Source="https://img.icons8.com/ios-filled/100/000000/pointing-at-self.png"
+                    <Image Source="https://img.icons8.com/ios-filled/100/000000/skateboarding.png"
                        WidthRequest="100"
                        HeightRequest="100"/>
 
                     <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
                     <Label
                    Margin="20,0,0,0"
-                   FontSize="50"
-                   Text="About Me"
+                   FontSize="40"
+                   Text="My Skills and Hobbies"
                    TextColor="Black"
                     
                    VerticalTextAlignment="End"
@@ -37,23 +38,84 @@
                    VerticalOptions="CenterAndExpand" />
 
                     <Label
-                        Text="_____________________________________________________________________"/>
+                        Text="______________________________________________________________________"/>
 
                     <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
 
-
-
-                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
                     <Label
                    Margin="20,0,0,0"
                    FontSize="30"
-                   Text="I am a current student at Pittsburg state University. My major is Electronics engineering with a minor in Computer Info Systems. I like to play video games on my free time whenever I'm not busy doing homework."
+                   Text="I like to:"
                    TextColor="Black"
                     
                    VerticalTextAlignment="End"
                     
-                   HorizontalOptions="Center"
+                   HorizontalOptions="Start"
                    VerticalOptions="CenterAndExpand" />
+
+                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                    <Label
+                   Margin="20,0,0,0"
+                   FontSize="20"
+                   Text="-Skateboard        -Play videogames"
+                   TextColor="Black"
+                    
+                   VerticalTextAlignment="End"
+                    
+                   HorizontalOptions="StartAndExpand"
+                   VerticalOptions="CenterAndExpand"/>
+                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+                    <Label
+                   Margin="20,0,0,0"
+                   FontSize="20"
+                   Text="-Practice archery         -Go hunting"
+                   TextColor="Black"
+                    
+                   VerticalTextAlignment="End"
+                    
+                   HorizontalOptions="StartAndExpand"
+                   VerticalOptions="CenterAndExpand"/>
+                    
+                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                    
+                    <Label
+                   Margin="20,0,0,0"
+                   FontSize="30"
+                   Text="My skills are:"
+                   TextColor="Black"
+                    
+                   VerticalTextAlignment="End"
+                    
+                   HorizontalOptions="Start"
+                   VerticalOptions="CenterAndExpand" />
+
+                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+                    <Label
+                   Margin="20,0,0,0"
+                   FontSize="20"
+                   Text="-Welding                 -Programming"
+                   TextColor="Black"
+                    
+                   VerticalTextAlignment="End"
+                    
+                   HorizontalOptions="StartAndExpand"
+                   VerticalOptions="CenterAndExpand"/>
+
+                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+                    <Label
+                   Margin="20,0,0,0"
+                   FontSize="20"
+                   Text="-Electrical wiring          -Fix vehicles"
+                   TextColor="Black"
+                    
+                   VerticalTextAlignment="End"
+                    
+                   HorizontalOptions="StartAndExpand"
+                   VerticalOptions="CenterAndExpand"/>
+
                     <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
 
                 </StackLayout>
