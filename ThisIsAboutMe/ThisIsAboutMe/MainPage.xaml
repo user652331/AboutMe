@@ -20,7 +20,7 @@
  
         Margin="20"
         BackgroundColor ="LightBlue"
-        CornerRadius="5"
+        CornerRadius="100"
         HasShadow="true">
 
             <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
@@ -41,7 +41,7 @@
                 <Label
                    Margin="20,0,0,0"
                    FontSize="30"
-                   Text="Who Am I"
+                   Text="Who Am I?"
                    TextColor="Black"
                     
                    VerticalTextAlignment="End"
@@ -58,7 +58,7 @@
  
         Margin="20"
         BackgroundColor ="LightBlue"
-        CornerRadius="5"
+        CornerRadius="100"
         HasShadow="true">
 
             <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
@@ -93,7 +93,7 @@
  
         Margin="20"
         BackgroundColor ="LightBlue"
-        CornerRadius="5"
+        CornerRadius="100"
         HasShadow="true">
 
             <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
