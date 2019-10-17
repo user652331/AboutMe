@@ -16,5 +16,10 @@ namespace ThisIsAboutMe
         {
             InitializeComponent();
         }
+
+        private void Button_ClickedBack(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainPage());
+        }
     }
 }
