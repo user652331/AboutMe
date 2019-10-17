@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace ThisIsAboutMe
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ContactPage : ContentPage
+    public partial class MessageSent : ContentPage
     {
-        public ContactPage()
+        public MessageSent()
         {
             InitializeComponent();
-        }
-
-        private void Button_ClickedSent(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new MessageSent());
         }
     }
 }

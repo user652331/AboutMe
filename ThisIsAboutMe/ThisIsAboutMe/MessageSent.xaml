@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             
+             BackgroundColor="LightBlue"
+             Title="Message Sent"
+             x:Class="ThisIsAboutMe.MessageSent">
+    
+    
+    <ContentPage.Content>
+        
+        
+        <StackLayout>
+            
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+            <Frame
+                
+        Margin="25"
+        BackgroundColor ="CornflowerBlue"
+        CornerRadius="30"
+        HasShadow="true">
+
+                <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                <StackLayout Orientation="Vertical" Spacing="20">
+
+
+                    <Image Source="https://img.icons8.com/ios-filled/90/000000/phonelink-ring.png"
+                       WidthRequest="100"
+                       HeightRequest="100"/>
+
+                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                    <Label
+                   Margin="20,0,0,0"
+                   FontSize="40"
+                   Text="Message has been sent!"
+                   TextColor="Black"
+                    
+                   VerticalTextAlignment="End"
+                    
+                   HorizontalOptions="Start"
+                   VerticalOptions="CenterAndExpand" />
+
+
+
+                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+                </StackLayout>
+
+            </Frame>
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+        </StackLayout>
+        
+        
+    </ContentPage.Content>
+</ContentPage>

@@ -12,8 +12,9 @@
     <ContentPage.Content>
         <StackLayout>
 
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
             <Frame
- 
+                
         Margin="25"
         BackgroundColor ="CornflowerBlue"
         CornerRadius="30"
@@ -110,6 +111,33 @@
                 <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
 
             </Frame>
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+            <Frame
+        Margin="25,0,25,0"
+        BackgroundColor ="CornflowerBlue"
+        CornerRadius="30"
+        HasShadow="true">
+
+                <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_ClickedSent"></TapGestureRecognizer>
+                </Frame.GestureRecognizers>
+                <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+                <StackLayout>
+
+                    <Label
+                    Text="Send"
+                    FontSize="15"
+                    HorizontalOptions="Center"/>
+
+
+
+                </StackLayout>
+
+        </Frame>
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
 
         </StackLayout>
     </ContentPage.Content>
