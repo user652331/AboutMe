@@ -4,7 +4,9 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             
              x:Class="ThisIsAboutMe.MainPage"
+             BackgroundColor="CornflowerBlue"
              Title="My Biography App">
 
     <StackLayout>
@@ -17,7 +19,7 @@
         <Frame
  
         Margin="20"
-        BackgroundColor ="black"
+        BackgroundColor ="LightBlue"
         CornerRadius="5"
         HasShadow="true">
 
@@ -39,8 +41,8 @@
                 <Label
                    Margin="20,0,0,0"
                    FontSize="30"
-                   Text="Me, Alex"
-                   TextColor="DarkGreen"
+                   Text="Who Am I"
+                   TextColor="Black"
                     
                    VerticalTextAlignment="End"
                     
@@ -55,7 +57,7 @@
         <Frame
  
         Margin="20"
-        BackgroundColor ="black"
+        BackgroundColor ="LightBlue"
         CornerRadius="5"
         HasShadow="true">
 
@@ -75,8 +77,8 @@
                 <Label
                    Margin="20,0,0,0"
                    FontSize="30"
-                   Text="Me, Alex"
-                   TextColor="DarkGreen"
+                   Text="Skills"
+                   TextColor="Black"
                     
                    VerticalTextAlignment="End"
                     
@@ -91,7 +93,7 @@
         <Frame
  
         Margin="20"
-        BackgroundColor ="black"
+        BackgroundColor ="LightBlue"
         CornerRadius="5"
         HasShadow="true">
 
@@ -111,8 +113,8 @@
                 <Label
                    Margin="20,0,0,0"
                    FontSize="30"
-                   Text="Me, Alex"
-                   TextColor="DarkGreen"
+                   Text="Contact Me"
+                   TextColor="Black"
                     
                    VerticalTextAlignment="End"
                     
