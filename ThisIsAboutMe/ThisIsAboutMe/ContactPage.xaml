@@ -142,7 +142,7 @@
 
                     <Label
                     Text="Send"
-                    FontSize="15"
+                    FontSize="25"
                     HorizontalOptions="Center"/>
 
 
