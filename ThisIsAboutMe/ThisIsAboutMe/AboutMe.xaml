@@ -25,9 +25,9 @@
                 <StackLayout Orientation="Vertical" Spacing="30">
 
 
-                    <Image Source="https://img.icons8.com/ios-filled/100/000000/pointing-at-self.png"
-                       WidthRequest="100"
-                       HeightRequest="100"/>
+                    <Image Source="http://webuildbuzz.com/wp-content/uploads/2012/10/me.jpg"
+                       WidthRequest="150"
+                       HeightRequest="150"/>
                     
                     <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
                     <Label
