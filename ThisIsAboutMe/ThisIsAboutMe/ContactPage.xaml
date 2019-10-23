@@ -11,11 +11,11 @@
              x:Class="ThisIsAboutMe.ContactPage">
     <ContentPage.Content>
         <StackLayout>
+            
 
-            <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
             <Frame
-                
-        Margin="25"
+        Margin="25,25,25,10"
         BackgroundColor ="CornflowerBlue"
         CornerRadius="30"
         HasShadow="true">
@@ -24,9 +24,9 @@
                 <StackLayout Orientation="Vertical" Spacing="20">
 
 
-                    <Image Source="https://img.icons8.com/ios-filled/90/000000/phonelink-ring.png"
-                       WidthRequest="100"
-                       HeightRequest="100"/>
+                    <Image Source="http://professorsubashnayak.com/wp-content/uploads/2019/02/2-6.jpg"
+                       WidthRequest="120"
+                       HeightRequest="120"/>
                     
                     
                     <Label
@@ -129,8 +129,12 @@
             <Frame
         Margin="25,0,25,0"
         BackgroundColor ="CornflowerBlue"
+        HeightRequest="20"
+        HorizontalOptions="Center"
+        WidthRequest="300"
         CornerRadius="30"
         HasShadow="true">
+                
 
                 <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
                 <Frame.GestureRecognizers>
@@ -138,11 +142,12 @@
                 </Frame.GestureRecognizers>
                 <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
 
-                <StackLayout>
+                <StackLayout Margin="0">
 
                     <Label
+                    Margin="0,0,0,0"
                     Text="Send"
-                    FontSize="25"
+                    FontSize="18"
                     HorizontalOptions="Center"/>
 
 
