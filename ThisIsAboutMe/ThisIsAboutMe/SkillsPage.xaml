@@ -28,7 +28,7 @@
                        WidthRequest="100"
                        HeightRequest="100"/>
 
-                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
                     <Label
                    Margin="20,0,0,0"
                    FontSize="40"
@@ -45,79 +45,14 @@
 
                     <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
 
-                    <Label
-                   Margin="20,0,0,0"
-                   FontSize="30"
-                   Text="I like to:"
-                   TextColor="Black"
-                    
-                   VerticalTextAlignment="End"
-                    
-                   HorizontalOptions="Start"
-                   VerticalOptions="CenterAndExpand" />
+                    <Entry x:Name="InputAskill"
+                           Placeholder="Enter in a Skill"/>
 
-                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
-                    <Label
-                   Margin="20,0,0,0"
-                   FontSize="20"
-                   Text="-Skateboard          -Play videogames"
-                   TextColor="Black"
-                    
-                   VerticalTextAlignment="End"
-                    
-                   HorizontalOptions="StartAndExpand"
-                   VerticalOptions="CenterAndExpand"/>
-                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                    <Button x:Name="InputButton"
+                            Text="Add Skill"
+                            Clicked="InputButton_Clicked"/>
 
-                    <Label
-                   Margin="20,0,0,0"
-                   FontSize="20"
-                   Text="-Practice archery            -Go hunting"
-                   TextColor="Black"
-                    
-                   VerticalTextAlignment="End"
-                    
-                   HorizontalOptions="StartAndExpand"
-                   VerticalOptions="CenterAndExpand"/>
-                    
-                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
-                    
-                    <Label
-                   Margin="20,0,0,0"
-                   FontSize="30"
-                   Text="My skills are:"
-                   TextColor="Black"
-                    
-                   VerticalTextAlignment="End"
-                    
-                   HorizontalOptions="Start"
-                   VerticalOptions="CenterAndExpand" />
-
-                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
-
-                    <Label
-                   Margin="20,0,0,0"
-                   FontSize="20"
-                   Text="-Welding                    -Programming"
-                   TextColor="Black"
-                    
-                   VerticalTextAlignment="End"
-                    
-                   HorizontalOptions="StartAndExpand"
-                   VerticalOptions="CenterAndExpand"/>
-
-                    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
-
-                    <Label
-                   Margin="20,0,0,0"
-                   FontSize="20"
-                   Text="-Electrical wiring            -Fix vehicles"
-                   TextColor="Black"
-                    
-                   VerticalTextAlignment="End"
-                    
-                   HorizontalOptions="StartAndExpand"
-                   VerticalOptions="CenterAndExpand"/>
+                    <ListView x:Name="SkillsListView"/>
 
                     <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
 
