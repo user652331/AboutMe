@@ -37,7 +37,6 @@ namespace ThisIsAboutMe
             ListingMySkills.Add("-Roofing");
 
 
-
             SkillsListView.ItemsSource = this.ListingMySkills;
 
         }

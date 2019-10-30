@@ -46,7 +46,8 @@
                     <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
 
                     <Entry x:Name="InputAskill"
-                           Placeholder="Enter in a Skill"/>
+                           Placeholder="Enter in a Skill"
+                           BackgroundColor="LightBlue"/>
 
                     <Button x:Name="InputButton"
                             Text="Add Skill"
